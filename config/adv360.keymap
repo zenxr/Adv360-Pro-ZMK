@@ -84,11 +84,11 @@
 
         dvorak {
             bindings = <
-&kp EQUAL   &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4       &kp NUMBER_5  &tog 1                                                                                     &mo 4                  &kp NUMBER_6  &kp NUMBER_7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS
-&kp TAB     &kp SINGLE_QUOTE  &kp COMMA     &kp PERIOD    &kp P              &kp Y         &kp LEFT_BRACKET                                                                           &kp RIGHT_BRACKET      &kp F         &kp G               &kp C         &kp R         &kp L         &kp FSLH
-&kp ESCAPE  &kp A             &kp O         &kp E         &hml LEFT_SHIFT U  &kp I         &kp LEFT_PARENTHESIS  &kp LEFT_CONTROL  &kp LEFT_ALT      &kp LEFT_GUI  &kp RIGHT_CONTROL  &kp RIGHT_PARENTHESIS  &kp D         &hmr RIGHT_SHIFT H  &kp T         &kp N         &kp S         &kp BSLH
-&kp LSHFT   &kp SEMICOLON     &kp Q         &kp J         &kp K              &kp X                                                 &kp HOME          &kp PG_UP                                               &kp B         &kp M               &kp W         &kp V         &kp Z         &kp RSHFT
-&mo 3       &kp GRAVE         &kp CAPSLOCK  &kp LEFT      &kp RIGHT                        &kp SPACE             &kp DELETE        &kp END           &kp PG_DN     &kp ENTER          &kp BACKSPACE                        &kp UP              &kp DOWN      &kp LBKT      &kp RBKT      &mo 3
+&kp EQUAL   &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4       &kp NUMBER_5  &tog 1                                                                                         &mo 4                  &kp NUMBER_6  &kp NUMBER_7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS
+&kp TAB     &kp SINGLE_QUOTE  &kp COMMA     &kp PERIOD    &kp P              &kp Y         &kp LEFT_BRACKET                                                                               &kp RIGHT_BRACKET      &kp F         &kp G               &kp C         &kp R         &kp L         &kp FSLH
+&kp ESCAPE  &kp A             &kp O         &kp E         &hml LEFT_SHIFT U  &kp I         &kp LEFT_PARENTHESIS  &mt LEFT_CONTROL TAB  &kp LEFT_ALT      &kp LEFT_GUI  &kp RIGHT_CONTROL  &kp RIGHT_PARENTHESIS  &kp D         &hmr RIGHT_SHIFT H  &kp T         &kp N         &kp S         &kp BSLH
+&kp LSHFT   &kp SEMICOLON     &kp Q         &kp J         &kp K              &kp X                                                     &kp HOME          &kp PG_UP                                               &kp B         &kp M               &kp W         &kp V         &kp Z         &kp RSHFT
+&mo 3       &kp GRAVE         &kp CAPSLOCK  &kp LEFT      &kp RIGHT                        &kp SPACE             &lt 3 DELETE          &kp END           &kp PG_DN     &kp ENTER          &kp BACKSPACE                        &kp UP              &kp DOWN      &kp LBKT      &kp RBKT      &mo 3
             >;
         };
 
@@ -114,11 +114,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 4   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+&kp F1  &kp F2         &kp F3          &kp F4            &kp F5                &kp F6     &tog 1                                      &mo 4   &kp F7         &kp F8                 &kp F9             &kp F10          &kp F11           &kp F12
+&trans  &trans         &trans          &trans            &trans                &trans     &none                                       &none   &trans         &trans                 &trans             &trans           &trans            &trans
+&trans  &kp LESS_THAN  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp SLASH  &none   &trans  &trans      &trans  &trans  &none   &kp BACKSLASH  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &trans
+&trans  &trans         &trans          &trans            &trans                &trans                     &trans      &trans                  &trans         &trans                 &trans             &trans           &trans            &trans
+&trans  &trans         &trans          &trans            &trans                           &trans  &trans  &trans      &trans  &trans  &trans                 &trans                 &trans             &trans           &trans            &trans
             >;
         };
 
